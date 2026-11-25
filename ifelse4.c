@@ -5,13 +5,13 @@ int main()
     printf("Enter the number: ");
     scanf("%d", &a);
 
-    if (a<0)
+     if (a<0)   // base condition
     {
         printf("invalid");
     }
-    else if (a%5 ==0 && a%2 ==0)
-    {
-        printf("divisible by 2 and 5 both");
+    else if (a%5 ==0 && a%2 ==0)     //&& means both condition must be true
+    {                                //|| means at least one must be true
+        printf("divisible by 2 and 5 both");  
     }
     else if (a%2 ==0)
     {
